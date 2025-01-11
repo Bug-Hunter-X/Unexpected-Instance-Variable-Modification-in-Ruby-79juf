@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle issue in Ruby: the lack of explicit errors when modifying instance variables from outside their defining class.  The `bug.rb` file shows how directly manipulating `@value` leads to silent, unexpected changes.  `bugSolution.rb` offers a better approach using accessor methods.
